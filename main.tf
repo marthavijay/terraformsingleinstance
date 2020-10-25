@@ -117,10 +117,10 @@ resource "aws_instance" "web-1" {
     vpc_security_group_ids = ["${aws_security_group.allow_all.id}"]
     associate_public_ip_address = true	
     tags = {
-        Name = "Server-1"
-        Env = "Production"
-        Owner = "Sreeharsha"
-	CostCenter = "ABCD"
+        Name = "Server-001"
+        Env = "Dev"
+        Owner = "SreeVeer"
+	CostCenter = "8080"
     }
 }
 
